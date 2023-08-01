@@ -1,0 +1,41 @@
+:root{
+    --clr-primary-100: hsl(0, 0%, 100%);
+    --clr-primary-200: hsl(44, 100%, 58%);
+
+    --clr-accent-100: hsl(0, 0%, 0%);
+    --clr-accent-200: hsl(242, 42%, 31%);
+
+    --ff-body: font-family: 'Ubuntu', sans-serif;;
+
+    --fw-primary: ;
+    --fw-secondary: ;
+
+    --fs-kbd: ;
+    --fs-span: ;
+}
+
+
+body{
+    font-family: var(--ff-body);
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/pexels-maxime-francis-2246476.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.keys{
+    height: 100vh;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.key{
+    display: grid;
+    color: white;
+}
